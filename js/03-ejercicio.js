@@ -21,6 +21,7 @@ let resultados = new Array(11).fill(0);
 
 for (let i = 0; i < repeticiones; i++) {
   let suma = simularLanzamiento();
+  resultados[suma - 2]++;
 }
 
 mostrarResultados(resultados);
