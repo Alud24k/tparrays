@@ -10,9 +10,9 @@ function simularLanzamiento() {
   return suma;
 }
 
-function mostrarResultados(choto) {
-  for (let i = 0; i < choto.length; i++) {
-    console.log(`Suma: ${i + 2} - Apariciones: ${choto[i]}`);
+function mostrarResultados(resultado) {
+  for (let i = 0; i < resultado.length; i++) {
+    console.log(`Suma: ${i + 2} - Apariciones: ${resultado[i]}`);
   }
 }
 
